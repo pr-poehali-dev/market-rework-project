@@ -92,6 +92,288 @@ const products: Product[] = [
       'Камера': '108 МП',
       'Батарея': '4500 мАч'
     }
+  },
+  {
+    id: 5,
+    name: 'Смартфон Galaxy S24 Ultra',
+    price: 119990,
+    oldPrice: 134990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/f7dcdc4e-65c1-4de3-b611-824eaf0d8e12.jpg',
+    rating: 4.9,
+    reviews: 512,
+    category: 'Смартфоны',
+    specs: {
+      'Диагональ экрана': '6.8"',
+      'Процессор': 'Snapdragon 8 Gen 3',
+      'ОЗУ': '16 ГБ',
+      'Память': '512 ГБ',
+      'Камера': '200 МП',
+      'Батарея': '5500 мАч'
+    }
+  },
+  {
+    id: 6,
+    name: 'iPhone 15 Pro Max',
+    price: 149990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/f7dcdc4e-65c1-4de3-b611-824eaf0d8e12.jpg',
+    rating: 4.8,
+    reviews: 892,
+    category: 'Смартфоны',
+    specs: {
+      'Диагональ экрана': '6.7"',
+      'Процессор': 'A17 Pro',
+      'ОЗУ': '8 ГБ',
+      'Память': '256 ГБ',
+      'Камера': '48 МП',
+      'Батарея': '4441 мАч'
+    }
+  },
+  {
+    id: 7,
+    name: 'Смартфон Xiaomi 14',
+    price: 64990,
+    oldPrice: 74990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/f7dcdc4e-65c1-4de3-b611-824eaf0d8e12.jpg',
+    rating: 4.6,
+    reviews: 287,
+    category: 'Смартфоны',
+    specs: {
+      'Диагональ экрана': '6.36"',
+      'Процессор': 'Snapdragon 8 Gen 3',
+      'ОЗУ': '12 ГБ',
+      'Память': '256 ГБ',
+      'Камера': '50 МП',
+      'Батарея': '4610 мАч'
+    }
+  },
+  {
+    id: 8,
+    name: 'Наушники AirPods Pro 2',
+    price: 27990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/716a8333-6801-423a-a43d-56a881d0eacd.jpg',
+    rating: 4.8,
+    reviews: 734,
+    category: 'Наушники',
+    specs: {
+      'Тип': 'TWS вкладыши',
+      'Подключение': 'Bluetooth 5.3',
+      'Время работы': '6 часов',
+      'Шумоподавление': 'Активное ANC',
+      'Вес': '5.3 г',
+      'Кодеки': 'AAC'
+    }
+  },
+  {
+    id: 9,
+    name: 'Наушники Sony WH-1000XM5',
+    price: 32990,
+    oldPrice: 39990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/716a8333-6801-423a-a43d-56a881d0eacd.jpg',
+    rating: 4.9,
+    reviews: 621,
+    category: 'Наушники',
+    specs: {
+      'Тип': 'Накладные',
+      'Подключение': 'Bluetooth 5.2',
+      'Время работы': '30 часов',
+      'Шумоподавление': 'Активное ANC',
+      'Вес': '250 г',
+      'Кодеки': 'LDAC, AAC'
+    }
+  },
+  {
+    id: 10,
+    name: 'Наушники JBL Tune 760NC',
+    price: 9990,
+    oldPrice: 12990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/716a8333-6801-423a-a43d-56a881d0eacd.jpg',
+    rating: 4.4,
+    reviews: 198,
+    category: 'Наушники',
+    specs: {
+      'Тип': 'Накладные',
+      'Подключение': 'Bluetooth 5.0',
+      'Время работы': '35 часов',
+      'Шумоподавление': 'Активное ANC',
+      'Вес': '220 г',
+      'Кодеки': 'SBC'
+    }
+  },
+  {
+    id: 11,
+    name: 'MacBook Pro 16" M3 Max',
+    price: 349990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/8028d942-1964-4ee5-947d-43ec09d47b64.jpg',
+    rating: 4.9,
+    reviews: 234,
+    category: 'Ноутбуки',
+    specs: {
+      'Диагональ': '16.2"',
+      'Процессор': 'Apple M3 Max',
+      'ОЗУ': '36 ГБ',
+      'SSD': '1 ТБ',
+      'Видеокарта': 'M3 Max GPU',
+      'Вес': '2.1 кг'
+    }
+  },
+  {
+    id: 12,
+    name: 'Ноутбук ASUS ROG Strix G16',
+    price: 159990,
+    oldPrice: 179990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/8028d942-1964-4ee5-947d-43ec09d47b64.jpg',
+    rating: 4.7,
+    reviews: 312,
+    category: 'Ноутбуки',
+    specs: {
+      'Диагональ': '16"',
+      'Процессор': 'Intel Core i9-13980HX',
+      'ОЗУ': '32 ГБ',
+      'SSD': '1 ТБ',
+      'Видеокарта': 'RTX 4070',
+      'Вес': '2.5 кг'
+    }
+  },
+  {
+    id: 13,
+    name: 'Ноутбук Lenovo ThinkPad X1',
+    price: 189990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/8028d942-1964-4ee5-947d-43ec09d47b64.jpg',
+    rating: 4.8,
+    reviews: 156,
+    category: 'Ноутбуки',
+    specs: {
+      'Диагональ': '14"',
+      'Процессор': 'Intel Core i7-1365U',
+      'ОЗУ': '16 ГБ',
+      'SSD': '512 ГБ',
+      'Видеокарта': 'Iris Xe',
+      'Вес': '1.2 кг'
+    }
+  },
+  {
+    id: 14,
+    name: 'Ноутбук HP Pavilion 15',
+    price: 69990,
+    oldPrice: 79990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/8028d942-1964-4ee5-947d-43ec09d47b64.jpg',
+    rating: 4.3,
+    reviews: 445,
+    category: 'Ноутбуки',
+    specs: {
+      'Диагональ': '15.6"',
+      'Процессор': 'AMD Ryzen 5 7535H',
+      'ОЗУ': '16 ГБ',
+      'SSD': '512 ГБ',
+      'Видеокарта': 'Radeon Graphics',
+      'Вес': '1.7 кг'
+    }
+  },
+  {
+    id: 15,
+    name: 'Планшет iPad Pro 12.9"',
+    price: 119990,
+    oldPrice: 134990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/8028d942-1964-4ee5-947d-43ec09d47b64.jpg',
+    rating: 4.9,
+    reviews: 678,
+    category: 'Планшеты',
+    specs: {
+      'Диагональ': '12.9"',
+      'Процессор': 'Apple M2',
+      'ОЗУ': '8 ГБ',
+      'Память': '256 ГБ',
+      'Камера': '12 МП',
+      'Батарея': '10758 мАч'
+    }
+  },
+  {
+    id: 16,
+    name: 'Планшет Samsung Galaxy Tab S9',
+    price: 74990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/8028d942-1964-4ee5-947d-43ec09d47b64.jpg',
+    rating: 4.7,
+    reviews: 234,
+    category: 'Планшеты',
+    specs: {
+      'Диагональ': '11"',
+      'Процессор': 'Snapdragon 8 Gen 2',
+      'ОЗУ': '12 ГБ',
+      'Память': '256 ГБ',
+      'Камера': '13 МП',
+      'Батарея': '8400 мАч'
+    }
+  },
+  {
+    id: 17,
+    name: 'Умные часы Apple Watch Series 9',
+    price: 49990,
+    oldPrice: 54990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/716a8333-6801-423a-a43d-56a881d0eacd.jpg',
+    rating: 4.8,
+    reviews: 892,
+    category: 'Аксессуары',
+    specs: {
+      'Диагональ': '1.9"',
+      'Процессор': 'S9 SiP',
+      'ОЗУ': '1 ГБ',
+      'Память': '64 ГБ',
+      'Датчики': 'ЭКГ, SpO2',
+      'Батарея': '18 часов'
+    }
+  },
+  {
+    id: 18,
+    name: 'Умные часы Samsung Galaxy Watch 6',
+    price: 29990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/716a8333-6801-423a-a43d-56a881d0eacd.jpg',
+    rating: 4.6,
+    reviews: 412,
+    category: 'Аксессуары',
+    specs: {
+      'Диагональ': '1.5"',
+      'Процессор': 'Exynos W930',
+      'ОЗУ': '2 ГБ',
+      'Память': '16 ГБ',
+      'Датчики': 'ЭКГ, SpO2',
+      'Батарея': '40 часов'
+    }
+  },
+  {
+    id: 19,
+    name: 'Powerbank 20000 mAh Fast Charge',
+    price: 3990,
+    oldPrice: 4990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/716a8333-6801-423a-a43d-56a881d0eacd.jpg',
+    rating: 4.5,
+    reviews: 1234,
+    category: 'Аксессуары',
+    specs: {
+      'Емкость': '20000 мАч',
+      'Выход': '22.5 Вт',
+      'Порты': '2x USB-A, 1x USB-C',
+      'Быстрая зарядка': 'PD, QC 3.0',
+      'Вес': '380 г',
+      'Материал': 'Алюминий'
+    }
+  },
+  {
+    id: 20,
+    name: 'Клавиатура механическая RGB',
+    price: 8990,
+    oldPrice: 11990,
+    image: 'https://cdn.poehali.dev/projects/8c216d15-1714-4c66-b4bf-612bb0b3d277/files/716a8333-6801-423a-a43d-56a881d0eacd.jpg',
+    rating: 4.7,
+    reviews: 567,
+    category: 'Аксессуары',
+    specs: {
+      'Тип': 'Механическая',
+      'Переключатели': 'Cherry MX Red',
+      'Подключение': 'USB-C, Bluetooth',
+      'Подсветка': 'RGB',
+      'Раскладка': 'TKL',
+      'Вес': '820 г'
+    }
   }
 ];
 
@@ -100,7 +382,7 @@ const Index = () => {
   const [cart, setCart] = useState<number[]>([]);
   const [favorites, setFavorites] = useState<number[]>([]);
   const [compareList, setCompareList] = useState<number[]>([]);
-  const [priceRange, setPriceRange] = useState([0, 150000]);
+  const [priceRange, setPriceRange] = useState([0, 400000]);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
 
   const toggleCart = (id: number) => {
@@ -336,7 +618,7 @@ const Index = () => {
                   <div>
                     <h4 className="font-semibold mb-3">Категории</h4>
                     <div className="space-y-2">
-                      {['Смартфоны', 'Наушники', 'Ноутбуки'].map(cat => (
+                      {['Смартфоны', 'Наушники', 'Ноутбуки', 'Планшеты', 'Аксессуары'].map(cat => (
                         <div key={cat} className="flex items-center space-x-2">
                           <Checkbox 
                             id={cat}
@@ -356,7 +638,7 @@ const Index = () => {
                     <Slider
                       value={priceRange}
                       onValueChange={setPriceRange}
-                      max={150000}
+                      max={400000}
                       step={1000}
                       className="mb-2"
                     />
@@ -367,7 +649,7 @@ const Index = () => {
                   </div>
 
                   <Button className="w-full" variant="outline" onClick={() => {
-                    setPriceRange([0, 150000]);
+                    setPriceRange([0, 400000]);
                     setSelectedCategories([]);
                   }}>
                     Сбросить фильтры
